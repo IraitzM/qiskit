@@ -1,5 +1,5 @@
 # Quantum Computing in Finance 👨‍💻
-## Hi 👋  This is a proof of concept repository for Qiskit Finance application , here we go! 🚀
+## Hi 👋  This is a proof of concept repository for Qiskit Finance application, here we go! 🚀
 
 ***
 ### General Info
