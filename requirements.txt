@@ -5,3 +5,5 @@ wheel
 cvxpy
 cvxopt
 qiskit-finance
+qiskit-optimization[cplex]
+qiskit-ibmq-provider

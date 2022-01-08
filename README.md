@@ -12,10 +12,12 @@ The objective is to be able to find the best combination of cryptocurrencies for
 
 Choosing from Binance data and filtering for USDT ending assets, taken only the 25 first.
 
-| Solver      | Solution | Time  |
-|-------------|----------|-------|
-| Brute force | Optimal  | 14.6s |
-| CVX         | Optimal  |  29ms |
+| Solver                | Solution | Time  |
+|-----------------------|----------|-------|
+| Brute force           | Optimal  | 14.6s |
+| CVX                   | Optimal  |  29ms |
+| MinimumEigenOptimizer | Optimal  | 8m19s |
+| CplexOptimizer        | Optimal  | 144ms |
 
 Updated: January 8, 2022
 
