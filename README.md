@@ -8,6 +8,17 @@ The objective is to be able to find the best combination of cryptocurrencies for
 
 > Disclaimer: The focus of this repository is to bring readers closer to the different functions that Qiskit Financial Application has, it is in no way about investment advice.
 
+## Comparison status
+
+Choosing from Binance data and filtering for USDT ending assets, taken only the 25 first.
+
+| Solver      | Solution | Time  |
+|-------------|----------|-------|
+| Brute force | Optimal  | 14.6s |
+| CVX         | Optimal  |  29ms |
+
+Updated: January 8, 2022
+
 ## Building and installing the library
 
 Creating a virtual environment is more than recommended:
@@ -19,7 +30,7 @@ python -m venv <venv_name>
 Afterwards, one can just build the library:
 
 ```
-python setup.py bdist_wheel
+python -m build
 ```
 
 And proceed to install it using the route of the library *dist/quanvia-x.x.x....whl* by a simple pip install routine. Enjoy!
