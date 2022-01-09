@@ -7,3 +7,6 @@ cvxopt
 qiskit-finance
 qiskit-optimization[cplex]
 qiskit-ibmq-provider
+dwave-system
+dwave-neal
+puqubo
